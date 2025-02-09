@@ -1,104 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <title>Roblox Scripter Portfolio</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kospen | Professional Roblox Developer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Space+Grotesk:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="header">
+    <div class="stars-container">
+        <svg class="stars" width="100%" height="100%">
+            <!-- Stars will be dynamically added here via JavaScript -->
+        </svg>
+    </div>
 
-
-    <header class="header">
-        <div class="video-container">
-          <video class="background-video" autoplay loop muted preload="auto">
-            <source src="hollowknightmain.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-          </video>
+    <nav class="navbar">
+        <div class="nav-content">
+            <div class="logo">KOSPEN</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
         </div>
-      </header>
-      
-      
-      
-    <div class="hero">
-      <div class="centered-element">
-      <h1>Welcome</h1>
-      </div>
-      <div class="centered-element">
-        <div class="service-card">
-      <p>My name is Kospen, Im a Expert in debugging, fixing errors,<br> and improving code quality for Roblox games</p>
+    </nav>
+
+    <header id="home" class="header">
+        <div class="hero">
+            <h1 class="gradient-text" data-aos="fade-up">Transforming Ideas Into Reality</h1>
+            <div class="hero-content" data-aos="fade-up" data-aos-delay="200">
+                <p class="tagline">Expert Roblox Development & Technical Solutions</p>
+                <a href="#contact" class="cta-button">Start Your Project</a>
+            </div>
         </div>
-      </div>
-    </div>
-  </header>
+    </header>
 
-  <section class="section">
-    <div class="centered-element">
-    <h2>About Me</h2>
-    </div>
-    <div class="centered-element">
-      <div class="service-card">
-    <p>I'm a skilled Roblox scripter with experience of over 3 years<br> in identifying and fixing issues in existing scripts.<br> I specialize in debugging errors, optimizing code for<br> a seamless gaming experience, and creating custom scripts<br> or features based on requests.
-    </p>
-      </div>
-    </div>
-</section>
-  <section class="section">
-    <div class="centered-element3">
-    <h2>Services I Offer</h2>
-    </div>
-    <div class="centered-element">
-    <div class="services-grid">
-      <div class="service-card">
-        <h3>Debugging & Error Fixing</h3>
-        <p>Resolve script errors and bugs that disrupt gameplay or functionality.</p>
-      </div>
-      <br>
-      <div class="service-card">
-        <h3>Code Optimization</h3>
-        <p>Refactor and streamline scripts to improve performance and efficiency.</p>
-      </div>
-      <br>
-      <div class="service-card">
-        <h3>Creation</h3>
-        <p>I Develop custom scripts or features based on your specific requests and needs.</p>        
-      </div>
-      <div class="centered-element3">
-        <h2>More Stuff</h2>
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Expertise</h2>
+            <div class="about-content">
+                <div class="about-text" data-aos="fade-up" data-aos-delay="200">
+                    <p>Delivering exceptional Roblox development solutions with over 3 years of specialized experience. From complex debugging to performance optimization, I transform challenges into seamless gaming experiences.</p>
+                    <div class="skills" data-aos="fade-up" data-aos-delay="300">
+                        <h3>Technical Arsenal</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Lua</span>
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">HTML</span>
+                            <span class="skill-tag">CSS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      <div class="service-card">
-        <h3>Code Languages I Know</h3>
-        <p>Python, Html, css, and Lua</p>
-      </div>
-      <br>
-      <div class="service-card">
-        <h3>Payment</h3>
-        <p>My payment will always be with money and not Robux.</p>
-      </div>
+    </section>
 
-  </section>
-  </div>
+    <section id="services" class="section">
+        <div class="container">
+            <h2 class="section-title">Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fas fa-bug"></i>
+                    <h3>Debugging & Error Fixing</h3>
+                    <p>Expert troubleshooting and resolution of script errors affecting gameplay and functionality.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-rocket"></i>
+                    <h3>Code Optimization</h3>
+                    <p>Performance enhancement through efficient code refactoring and optimization techniques.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-code"></i>
+                    <h3>Custom Development</h3>
+                    <p>Creation of tailored scripts and features to meet your specific game requirements.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <div class="centered-element">
-  <section class="section" id="contact">
-    <h2>Contact Me:</h2>
-    </div>
-    <div class="centered-element2">
-    <h3><a href="https://discordapp.com/users/885541780144148480" class="pop-out-link">discord account</a></h3>
-    </div>
+      <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Let's Connect</h2>
+            <div class="contact-content">
+                <!-- Discord Connect Button -->
+                <a id="discord-button" class="contact-button">
+                    <i class="fab fa-discord"></i> Connect on Discord
+                </a>
+                <!-- GitHub Connect Button -->
+                <a href="https://github.com/k0spen" target="_blank" class="contact-button">
+                    <i class="fab fa-github"></i> Connect on GitHub
+                </a>
     
-  </section>
-  <footer class="footer">
-    <p>&copy; 2025 made by Kospen. All rights reserved</p>
-  </footer>
-  <script src="script.js"></script>
+                <p class="payment-note">Professional services provided with secure payment options</p>
+            </div>
+        </div>
+    </section>
+    
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Kospen. All rights reserved</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
-
-
-
-
